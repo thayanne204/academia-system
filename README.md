@@ -4,6 +4,15 @@ Sistema web completo para gestão de academias, desenvolvido com Vue.js, Node.js
 
 ---
 
+## 🌐 Sistema Online
+
+O sistema está disponível online e pode ser acessado de qualquer dispositivo:
+
+- **Frontend:** [https://academia-system-chi.vercel.app](https://academia-system-chi.vercel.app)
+- **Backend:** [https://academia-system-production-3751.up.railway.app](https://academia-system-production-3751.up.railway.app)
+
+---
+
 ## 📋 Objetivo do Sistema
 
 O Academia System é uma plataforma de gestão interna para academias, permitindo que administradores gerenciem alunos e planos de forma simples, rápida e eficiente. O sistema conta com autenticação segura, dashboard com visão geral e CRUD completo de alunos e planos.
@@ -122,17 +131,25 @@ academia-system/
 
 ## ⚙️ Como Executar o Projeto
 
-### Pré-requisitos
+### 🌐 Acessar Online (recomendado)
+Acesse diretamente pelo navegador:
+```
+https://academia-system-chi.vercel.app
+```
+
+### 💻 Rodar Localmente
+
+#### Pré-requisitos
 - Node.js instalado
 - Conta no Supabase
 
-### 1. Clone o repositório
+#### 1. Clone o repositório
 ```bash
 git clone https://github.com/thayanne204/academia-system.git
 cd academia-system
 ```
 
-### 2. Configure o Backend
+#### 2. Configure o Backend
 ```bash
 cd backend
 npm install
@@ -151,7 +168,7 @@ Inicie o backend:
 node server.js
 ```
 
-### 3. Configure o Frontend
+#### 3. Configure o Frontend
 ```bash
 cd frontend
 npm install
